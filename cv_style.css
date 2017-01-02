@@ -37,9 +37,9 @@ header h4 {
 #top_black {
     border: 5px solid black;
     height: 50px;
-    width:auto;    
+    width:auto;
     background-color: black;
-    
+
 }
 #cont_text {
 	margin: 0 7% 0 7%;
@@ -79,7 +79,7 @@ header h4 {
     width: 160px;
     margin: 0 3% 0 3%;
     font-size:0.9em;
-    font-weight: bolder;  
+    font-weight: bolder;
     text-align: center;
     word-wrap: break-word;
 }
@@ -110,7 +110,6 @@ section {
     border: 1px solid blue;
     font-size: 1.3em;
     letter-spacing: 3px;
-    padding-left:2%;
 }
 
 p {
@@ -118,21 +117,25 @@ p {
 }
 
 ul {
-    padding: 5% 0 3% 0; 
+    padding: 5% 30% 0% 0%;
 }
 
 li {
     list-style: none;
     margin-left: 10%;
     margin-bottom: 3px;
+    padding-bottom: 3%;
 }
 
 @media (max-width:620px){
     #prof_exp, #educ_skills {
-        width:100%; 
+        width:100%;
     }
-    
-} 
+    #prof_exp {
+      margin: 0;
+    }
+
+}
 
 @media (max-width:385px){
     header h1 {
@@ -155,6 +158,6 @@ li {
 @media (max-width:801px) and (min-width:620px){
     #container {
         margin: 0 15% 0 15%;
-                
+
     }
 }
