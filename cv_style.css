@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+	padding: 0;
+    border: 0;
+    font-family: Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif;
+}
+
+header {
+	width:  auto;
+    height: auto;
+	padding: 30px 0 0 0;
+	/* background-color: #D6DCDF; */
+	color: black;
+}
+header h1 {
+	font-size: 4em;
+	font-weight: bold;
+    text-align: center;
+    padding: 25px 0 25px 0;
+    letter-spacing: 5px;
+}
+
+#undertext_black{
+    height: 10px;
+    width: auto;
+    background-color: black;
+}
+strong {
+    font-size: 1.1em;
+}
+
+header h4 {
+	padding-top: 0;
+	margin-top: 2%;
+	font-size: 18px;
+}
+#top_black {
+    border: 5px solid black;
+    height: 50px;
+    width:auto;    
+    background-color: black;
+    
+}
+#cont_text {
+	margin: 0 7% 0 7%;
+}
+#logo_git {
+	height: 75%;
+	width: 80%;
+}
+#mobile_img {
+    margin-top: 5%;
+    height: 65%;
+    width: 80%;
+}
+
+#email_img {
+    height: 70%;
+    width: 50%;
+}
+#logo_linkedin {
+	height: 55%;
+	width: 70%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+#container {
+    width: auto;
+    display: flex;
+    margin-top:2%;
+    flex-flow: wrap;
+    align-content: space-around;
+    justify-content: center;
+    align-items: center;
+}
+.item {
+    height: 140px;
+    width: 160px;
+    margin: 0 3% 0 3%;
+    font-size:0.9em;
+    font-weight: bolder;  
+    text-align: center;
+    word-wrap: break-word;
+}
+section {
+    padding: 40px;
+    height: auto;
+    width: auto;
+    display: block;
+    float: left;
+}
+
+#prof_exp {
+    width: 60%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: auto;
+    display: inline-block;
+    vertical-align: top;
+}
+#educ_skills {
+    width: 25%;
+    display: inline-block;
+    height: auto;
+}
+#prof_exp h2, #educ_skills h2 {
+    background-color: black;
+    color: white;
+    border: 1px solid blue;
+    font-size: 1.3em;
+    letter-spacing: 3px;
+    padding-left:2%;
+}
+
+p {
+    margin: 5% 2% 5% 0;;
+}
+
+ul {
+    padding: 5% 0 3% 0; 
+}
+
+li {
+    list-style: none;
+    margin-left: 10%;
+    margin-bottom: 3px;
+}
+
+@media (max-width:620px){
+    #prof_exp, #educ_skills {
+        width:100%; 
+    }
+    
+} 
+
+@media (max-width:385px){
+    header h1 {
+        font-size: 2.8em;
+        letter-spacing: 2px;
+    }
+}
+
+@media (max-width:1190px) and (min-width:956px){
+    .item {
+        margin: 0 3% 0 3%;
+    }
+}
+@media (max-width:955px) and (min-width:802px){
+    .item {
+        margin: 0 1% 0 1%;
+    }
+}
+
+@media (max-width:801px) and (min-width:620px){
+    #container {
+        margin: 0 15% 0 15%;
+                
+    }
+}
