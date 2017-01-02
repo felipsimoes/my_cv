@@ -110,6 +110,7 @@ section {
     border: 1px solid blue;
     font-size: 1.3em;
     letter-spacing: 3px;
+    padding-left: 3%;
 }
 
 p {
